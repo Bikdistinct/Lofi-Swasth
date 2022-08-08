@@ -69,7 +69,7 @@ app.get("/yoga",function(req,res){
 });
 
 app.get("/disease",function(req,res){
-  res.render("disease");
+  res.render("diseasesnew");
 });
 
 app.get("/basic",function(req,res){
