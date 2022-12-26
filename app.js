@@ -43,7 +43,7 @@ app.use(upload());
 
 ////atlas
 const { MongoClient, ServerApiVersion } = require('mongodb');
-mongoose.connect(process.env.MONGOMY,{useNewUrlParser:true});
+mongoose.connect(process.env.MONGODB_URI,{useNewUrlParser:true});
 //
 
 const consultSchema=new mongoose.Schema({
